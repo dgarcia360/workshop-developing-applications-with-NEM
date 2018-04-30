@@ -264,7 +264,7 @@ Catapult is the new version of NEM, which provides higher performance and new fu
 
 In this version, we can create aggregate transactions. Aggregate transactions contain multiple transactions that can be initiated by different accounts. The Aggregate transaction is used when all transactions need to be included in a block or none of them.
                                                        
-You can [see here a code example](#) of how aggregate transactions work using NEM2-SDK, the new software development kit for Catapult.
+You can [see here a code example](https://github.com/dgarcia360/workshop-developing-applications-with-NEM/blob/master/code/aggregateTransaction.ts) of how aggregate transactions work using NEM2-SDK, the new software development kit for Catapult.
 
 We encourage you applying to participate in the [early access program for Catapult](https://nem.io/catapult/)
                                                   
@@ -275,7 +275,7 @@ Catapult also comes with multilevel multisig accounts. A Multi-Level Multisig Ac
 Imagine that to pass the quality process, not only the company should send a mosaic to the product, but pass the revision of different actors.
 
 
-##References
+## References
 
 This guide takes explanations from the following guides.
 

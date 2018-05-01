@@ -6,7 +6,7 @@ Discover common concerns while developing applications using blockchain technolo
 
 NEM workshop facilitator will be David Garcia, NEM Technical Trainer for NEM Europe.
 
-* [Download the slides](#)
+* [Download the slides](https://github.com/dgarcia360/workshop-developing-applications-with-NEM/blob/master/slides.pdf)
 
 ## Install NanoWallet
 

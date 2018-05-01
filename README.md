@@ -42,7 +42,7 @@ XEM will appear in your account’s balance after the network confirms the trans
 
 ## Creating a new project and installing NEM-Library
 
-[!] Follow this step if you have programming skills. If not, you can jump to next step.
+:warning: Follow this step if you have programming skills. If not, you can jump to next step.
 
 By that time, you should have created an account and have received some XEM. Then it is time to create a folder for your project.
 
@@ -59,7 +59,7 @@ Then, install nem-library and reactivex library.
 
     $> npm install nem-library rxjs --save
 
-[!] nem2-sdk is built with TypeScript language.
+:warning: nem2-sdk is built with TypeScript language.
 
 It is recommended to use TypeScript instead of JavaScript when building applications for NEM blockchain.
 
@@ -123,7 +123,7 @@ A Mosaic is always created in a namespace`. A namespace is analogue to a domain 
 
 Before we create a mosaic to represent the authenticity, we need to create a namespace. For this example, we create a root-namespace representing the `company`.
 
-[!] Note that namespaces name must be unique. As `company` is probably already chosen, think to put the name of your company or some unique string.
+:warning: Note that namespaces name must be unique. As `company` is probably already chosen, think to put the name of your company or some unique string.
 
 
 Go to Services and choose "Create namespace".
@@ -194,7 +194,7 @@ Do it as you would send XEM, but this time mark "mosaic transfer", selecting the
 
 Login into the customer account. Assume that the customer goes to the store and pays for the watch.
 
-[!] Follow this steps if you have programming skills if not just send with NanoWallet 5 nem:xem to company's address.
+:warning: Follow this steps if you have programming skills if not just send with NanoWallet 5 nem:xem to company's address.
 
 In the file you have created, import NEM Library. Then, create a transfer transaction making the recipient the company's address.
 

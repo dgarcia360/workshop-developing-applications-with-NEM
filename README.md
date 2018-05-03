@@ -168,7 +168,7 @@ A multisig account is labelled as n-of-m, meaning to m cosignatories have been a
 
 Cosignatories can be added (one or multiple at a time), removed (one at a time) and the quorum of cosignatories can be modified.
 
-Login into the watch account. Click Services in the top panel and after that click **Convert an account to multisig**.
+Login with the watch account. Click Services in the top panel and after that click **Convert an account to multisig**.
 
 The next step is to convert the MSA account into a multi-signature account. First, you need to put in the private key of the MSA account. Then you can add signers, I will add the addresses of the `company` account. I will also set the Min. signatures to 1. Start the contract conversion by pressing Send, creating a 1-of-1 multisig transaction.
 
@@ -192,7 +192,7 @@ Do it as you would send XEM, but this time mark "mosaic transfer", selecting the
 
 #### Paying for the product
 
-Login into the customer account. Assume that the customer goes to the store and pays for the watch.
+Login with the customer account. Assume that the customer goes to the store and pays for the watch.
 
 :warning: Follow this steps if you have programming skills if not just send with NanoWallet 5 nem:xem to company's address.
 
@@ -241,7 +241,7 @@ Execute it running `ts-node transferTransaction.ts`
 
 #### Removing company as the cosigner of the multisig and adding customer
 
-Login into company account. The editing of a contract is straightforward. To do so you need to click on Services in the top panel and when the blockchain network has confirmed the creation of the multi-signature account, Edit an existing contract is enabled for you to click. You can select a contract from Account to edit, and edit the contract accordingly to your needs (adding/removing signers, etc.).
+Login with company account. The editing of a contract is straightforward. To do so you need to click on Services in the top panel and when the blockchain network has confirmed the creation of the multi-signature account, Edit an existing contract is enabled for you to click. You can select a contract from Account to edit, and edit the contract accordingly to your needs (adding/removing signers, etc.).
 
 ![](/images/editing-multisig.png)
 
@@ -277,7 +277,7 @@ Imagine that to pass the quality process, not only the company should send a mos
 
 ## References
 
-This guide takes explanations from the following guides.
+This guide uses fragments of text from the following resources.
 
 [NEM Catapult Documentation](https://nemtech.github.io/index.html)
 

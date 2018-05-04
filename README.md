@@ -47,7 +47,7 @@ XEM will appear in your account’s balance after the network confirms the trans
 By that time, you should have created an account and have received some XEM. Then it is time to create a folder for your project.
 
 
-Create a new folder named `workshop. 
+Create a new folder named `workshop`. 
 
     $> mkdir chainges2018
 
@@ -119,7 +119,7 @@ Transactions usually require a small fee. The NanoWallet shows the fee and autom
  
 NEM’s mosaics are let you create and manage tokens on the NEM blockchain. These tokens can then be transferred by issuing transactions just as with NEM’s native tokens, XEMs.
 
-A Mosaic is always created in a namespace`. A namespace is analogue to a domain name you register on the internet. 
+A Mosaic is always created in a `namespace`. A namespace is analogue to a domain name you register on the internet. 
 
 Before we create a mosaic to represent the authenticity, we need to create a namespace. For this example, we create a root-namespace representing the `company`.
 
